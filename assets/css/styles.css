@@ -246,7 +246,10 @@ button {
 .btn-outline:hover {
   background: rgba(255, 255, 255, 0.5);
 }
-
+.hero .btn-outline {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  color: var(--white);
+}
 .btn-dark,
 .btn-outline-dark {
   color: var(--dark);
